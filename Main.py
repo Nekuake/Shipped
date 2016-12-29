@@ -94,7 +94,7 @@ while Run == 1:
       C= "toda su colección de videos porno amateur"
   while Done == 0:
     Doneint = random.randomint(1,10)
-    if Doneint = 1:
+    if Doneint == 1:
       print(persona1 + "le metió" + C + "a" + persona2)
       Done = 1
   time.sleep(2)
