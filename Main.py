@@ -117,6 +117,7 @@ while Run == 1:
       Done = 1
     elif Doneint == 3:
       print("Con todo el dolor de su corazón, " + persona1 + " tuvo que dejar marchar a " + persona2 + " siendo " + C + " el único recuerdo que guardaría.")
+      Done = 1
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
   Runinp = input("> ").upper()
