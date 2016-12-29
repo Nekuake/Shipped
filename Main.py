@@ -102,10 +102,10 @@ while Run == 1:
   Runinp = input("> ").upper()
   while Runinp.upper() not in ("Y", "N"):
     print("ERROR DE ENTRADA, POR FAVOR USE (Y/N)")
-     Runinp = input("> ").strip().upper()
+    Runinp = input("> ").strip().upper()
   if Runinp == "Y":
     time.sleep(1)
-    while Fraserundone == 0
+    while Fraserundone == 0:
       Fraserun = random.randomint(1,15)
       if Fraserun == 1:
         print ("Shippear y otras drogas")
