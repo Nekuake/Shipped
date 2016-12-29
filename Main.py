@@ -9,7 +9,7 @@ while Run == 1:
   Done = 0
   Fraserundone = 0
   while persona1 == 0:
-    persona1int = random.randomint(1,30)
+    persona1int = random.randint(1,30)
     if persona1int == 1:
       persona1 = "Dalas"
     elif persona1int == 2:
@@ -27,7 +27,7 @@ while Run == 1:
     elif persona1int == 8:
       persona1 = "tu persona"
     elif persona1int == 9:
-      persona1 = "El pesado que te corrige las faltas"
+      persona1 = "el pesado que te corrige las faltas"
     elif persona1int == 10:
       persona1 = "Hitler"
     elif persona1int == 11:
@@ -45,7 +45,7 @@ while Run == 1:
     elif persona1int == 17:
       persona1 = "Rajoy"
   while persona2 == 0:
-    persona2int = random.randomint(1,30)
+    persona2int = random.randint(1,30)
     if persona2int == 1:
       persona2 = "Dalas"
     elif persona2int == 2:
@@ -63,7 +63,7 @@ while Run == 1:
     elif persona2int == 8:
       persona2 = "tu persona"
     elif persona2int == 9:
-      persona2 = "El pesado que te corrige las faltas"
+      persona2 = "el pesado que te corrige las faltas"
     elif persona2int == 10:
       persona2 = "Hitler"
     elif persona2int == 11:
@@ -81,7 +81,7 @@ while Run == 1:
     elif persona2int == 17:
       persona2 = "Rajoy"  
   while C == 0:
-    Cint = random.randomint(1,10)
+    Cint = random.randint(1,10)
     if Cint == 1:
       C = "el ano"
     elif Cint == 2:
@@ -93,9 +93,9 @@ while Run == 1:
     elif Cint == 5:
       C= "toda su colección de videos porno amateur"
   while Done == 0:
-    Doneint = random.randomint(1,10)
+    Doneint = random.randint(1,10)
     if Doneint == 1:
-      print(persona1 + "le metió" + C + "a" + persona2)
+      print(persona1 + " le metió " + C + " a " + persona2)
       Done = 1
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
@@ -106,7 +106,7 @@ while Run == 1:
   if Runinp == "Y":
     time.sleep(1)
     while Fraserundone == 0:
-      Fraserun = random.randomint(1,15)
+      Fraserun = random.randint(1,15)
       if Fraserun == 1:
         print ("Shippear y otras drogas")
       elif Fraserun == 2:
