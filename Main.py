@@ -100,7 +100,7 @@ while Run == 1:
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
   Runinp = input("> ").upper()
-  while Runinp.upper() not in ("Y", "N")
+  while Runinp.upper() not in ("Y", "N"):
     print("ERROR DE ENTRADA, POR FAVOR USE (Y/N)")
      Runinp = input("> ").strip().upper()
   if Runinp == "Y":
