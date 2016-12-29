@@ -3,6 +3,7 @@ import time
 print("BIENVENIDO AL SHIPEADOR. DONDE TODO EL MUNDO PUEDE SER SHIPEADO CON LO QUE SEA")
 Run = 1
 while Run == 1:
+  time.sleep (2)
   persona1 = 0
   persona2 = 0
   C = 0
@@ -37,13 +38,15 @@ while Run == 1:
     elif persona1int == 13:
       persona1 = "Fernando VII y su macrosomía genital"
     elif persona1int == 14:
-      persona1 = "El Rubius"
+      persona1 = "el Rubius"
     elif persona1int == 15:
       persona1 = "Joven Chano"
     elif persona1int == 16:
       persona1 = "Jorge Cremades"
     elif persona1int == 17:
       persona1 = "Rajoy"
+    elif persona1int == 18:
+      persona1 = "la Merkel"
   while persona2 == 0:
     persona2int = random.randint(1,30)
     if persona2int == 1:
@@ -80,22 +83,37 @@ while Run == 1:
       persona2 = "Jorge Cremades"
     elif persona2int == 17:
       persona2 = "Rajoy"  
+    elif persona2int == 18:
+      persona2 = "la Merkel"
   while C == 0:
     Cint = random.randint(1,10)
     if Cint == 1:
       C = "el ano"
     elif Cint == 2:
-      C= "el dildo más grande que un Bad Dragon"
+      C= "un dildo más grande que un Bad Dragon"
     elif Cint == 3:
       C= "el pene"
     elif Cint == 4:
       C= "la lengua"
     elif Cint == 5:
       C= "toda su colección de videos porno amateur"
+    elif Cint == 6:
+      C = "una charla sobre el postmodernismo con Cohen de fondo"
+    elif Cint == 7:
+      C = "veinte poemas de amor y una canción desesperada"
+    elif Cint == 8:
+      C = "un fursuit manchado de lujuria"
+    elif Cint == 9:
+      C = "la casa de Pin&Pon"
+    elif Cint == 10:
+      C = "todo su amor comprimido en una tierna caricia"
   while Done == 0:
     Doneint = random.randint(1,10)
     if Doneint == 1:
-      print(persona1 + " le metió " + C + " a " + persona2)
+      print(persona1 + " le metió " + C + " a " + persona2 + " por donde nunca sale el sol.")      
+      Done = 1
+    elif Doneint == 2:
+      print(persona1 + " se le quedó mirando a los ojos y, con " + C + " le quedó claro a " + persona2 + " que era el amor de su vida")
       Done = 1
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
@@ -109,6 +127,7 @@ while Run == 1:
       Fraserun = random.randint(1,15)
       if Fraserun == 1:
         print ("Shippear y otras drogas")
+        Fraserundone = 1
       elif Fraserun == 2:
         print ("¿Esta es la única salida a mi depresión latente?")
         Fraserundone = 1
