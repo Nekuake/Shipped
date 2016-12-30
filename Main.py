@@ -1,8 +1,8 @@
 import random
 import time
 print("BIENVENIDO AL SHIPEADOR. DONDE TODO EL MUNDO PUEDE SER SHIPEADO CON LO QUE SEA")
-Run = true
-while Run == true:
+Run = 1
+while Run == 1:
   time.sleep (2)
   persona1 = 0
   persona2 = 0
@@ -151,6 +151,6 @@ while Run == true:
         Fraserundone = 1
     time.sleep(3)
   else: 
-    Run = false
+    Run = 0
 exit    
         
