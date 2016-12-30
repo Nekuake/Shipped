@@ -86,7 +86,7 @@ while Run == 1:
     elif persona2int == 18:
       persona2 = "la Merkel"
   while C == 0:
-    Cint = random.randint(1,10)
+    Cint = random.randint(1,30)
     if Cint == 1:
       C = "el ano"
     elif Cint == 2:
@@ -107,6 +107,14 @@ while Run == 1:
       C = "la casa de Pin&Pon"
     elif Cint == 10:
       C = "todo su amor comprimido en una tierna caricia"
+    elif Cint == 11:
+      C = "una agenda de ms Wonderful"
+    elif Cint == 12:
+      C = "una unión de manos simbólica"
+    elif Cint == 13:
+      C = "una imagen descorazonadora"
+    elif Cint == 14
+      C = "un beso negro"
   while Done == 0:
     Doneint = random.randint(1,10)
     if Doneint == 1:
