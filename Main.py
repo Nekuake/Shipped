@@ -113,7 +113,7 @@ while Run == 1:
       C = "una unión de manos simbólica"
     elif Cint == 13:
       C = "una imagen descorazonadora"
-    elif Cint == 14
+    elif Cint == 14:
       C = "un beso negro"
   while Done == 0:
     Doneint = random.randint(1,10)
