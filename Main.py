@@ -51,7 +51,7 @@ while Run == 1:
       persona1 = "Terelu Campos"
     elif persona1int == 20:
       persona1 = "el desarrollador"
-    elif persona1int =" 21:
+    elif persona1int = 21:
       persona1 = "tu crush"
   while persona2 == 0:
     persona2int = random.randint(1,30)
