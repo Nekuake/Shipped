@@ -127,6 +127,12 @@ while Run == 1:
       C = "una imagen descorazonadora"
     elif Cint == 14:
       C = "un beso negro"
+    elif Cint == 15:
+      C = "un buen faje en el baño"
+    elif Cint == 16:
+      C = "su infinita riqueza"
+    elif Cint == 17:
+      C = "un hijo bastardo y tonto"
   while Done == 0:
     Doneint = random.randint(1,10)
     if Doneint == 1:
@@ -140,6 +146,9 @@ while Run == 1:
       Done = 1
     elif Doneint == 4:
       print(persona1 + " siempre escondería que la verdadera razón por la que amaba a " + persona2 + " era " + C)
+      Done = 1
+    elif Doneint == 5:
+      print("ENAMORADOS: El fanfic que se hizo best-seller, ahora con " + persona1 + " y cómo " + C + " cambió su visión de su amor a " + persona2)
       Done = 1
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
