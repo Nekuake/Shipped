@@ -174,7 +174,7 @@ while Run == 1:
         Fraserundone = 1
       elif Fraserun == 8:
         print ("Utilizando sangre de unicornio para la próxima frase..."
-  else: 
+   else: 
     Run = 0
 exit    
         
