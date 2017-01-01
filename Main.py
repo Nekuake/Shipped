@@ -47,6 +47,12 @@ while Run == 1:
       persona1 = "Rajoy"
     elif persona1int == 18:
       persona1 = "la Merkel"
+    elif persona1int == 19:
+      persona1 = "Terelu Campos"
+    elif persona1int == 20:
+      persona1 = "el desarrollador"
+    elif persona1int =" 21:
+      persona1 = "tu crush"
   while persona2 == 0:
     persona2int = random.randint(1,30)
     if persona2int == 1:
@@ -85,6 +91,12 @@ while Run == 1:
       persona2 = "Rajoy"  
     elif persona2int == 18:
       persona2 = "la Merkel"
+    elif persona2int == 19:
+      persona2 = "Terelu Campos"
+    elif persona2int == 20:
+      persona2 = "el desarrollador"
+    elif persona2int == 21:
+      persona2 = "tu crush"
   while C == 0:
     Cint = random.randint(1,30)
     if Cint == 1:
@@ -126,6 +138,9 @@ while Run == 1:
     elif Doneint == 3:
       print("Con todo el dolor de su corazón, " + persona1 + " tuvo que dejar marchar a " + persona2 + " siendo " + C + " el único recuerdo que guardaría.")
       Done = 1
+    elif Doneint == 4:
+      print(persona1 + " siempre escondería que la verdadera razón por la que amaba a " + persona2 + " era " + C)
+      Done = 1
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
   Runinp = input("> ").upper()
@@ -157,7 +172,8 @@ while Run == 1:
       elif Fraserun == 7:
         print ("Los usuarios del shipeador aseguran ser un 50% más virgenes una vez utilizado")
         Fraserundone = 1
-    time.sleep(3)
+      elif Fraserun == 8:
+        print ("Utilizando sangre de unicornio para la próxima frase..."
   else: 
     Run = 0
 exit    
