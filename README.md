@@ -1,2 +1,2 @@
 # Shipped
-Shipping made easy
+(SCRIPT FINISHED. ONLY WILL BE UPDATED WITH NEW STRINGS) Shipping made easy
