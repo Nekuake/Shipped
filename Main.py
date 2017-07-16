@@ -53,6 +53,8 @@ while Run == 1:
       persona1 = "el desarrollador"
     elif persona1int == 21:
       persona1 = "tu crush"
+    elif persona1int == 22:
+      persona1 = "un hetero nazi reprimido y buenorro"
   while persona2 == 0:
     persona2int = random.randint(1,30)
     if persona2int == 1:
@@ -97,6 +99,8 @@ while Run == 1:
       persona2 = "el desarrollador"
     elif persona2int == 21:
       persona2 = "tu crush"
+    elif persona2int == 22:
+      persona2 = "un hetero reprimido nazi pero buenorro"
   while C == 0:
     Cint = random.randint(1,30)
     if Cint == 1:
@@ -150,6 +154,9 @@ while Run == 1:
     elif Doneint == 5:
       print("ENAMORADOS: El fanfic que se hizo best-seller, ahora con " + persona1 + " y cómo " + C + " cambió su visión de su amor a " + persona2)
       Done = 1
+    elif Doneint == 6:
+      print("La opinión popular detesta la relación entre " + persona1 + " y " + persona2 + " ya que, según todos aseguran, su unión se basa en " + C)
+      Done = 2
   time.sleep(2)
   print("¿Quiere tirar otra vez? (Y/N)")
   Runinp = input("> ").upper()
