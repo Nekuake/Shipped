@@ -55,6 +55,8 @@ while Run == 1:
       persona1 = "tu crush"
     elif persona1int == 22:
       persona1 = "un hetero nazi reprimido y buenorro"
+    elif persona1int == 22:
+      persona1 = "Hillary Clinton"
   while persona2 == 0:
     persona2int = random.randint(1,30)
     if persona2int == 1:
@@ -101,6 +103,10 @@ while Run == 1:
       persona2 = "tu crush"
     elif persona2int == 22:
       persona2 = "un hetero reprimido nazi pero buenorro"
+    elif persona2int == 23:
+      persona2 = "Hillary Clinton"
+    elif persona2int == 24:
+      persona2 = "tu padre desaparecido·    
   while C == 0:
     Cint = random.randint(1,30)
     if Cint == 1:
