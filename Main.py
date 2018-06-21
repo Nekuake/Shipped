@@ -106,7 +106,7 @@ while Run == 1:
     elif persona2int == 23:
       persona2 = "Hillary Clinton"
     elif persona2int == 24:
-      persona2 = "tu padre desaparecido·    
+      persona2 = "tu padre desaparecido" 
   while C == 0:
     Cint = random.randint(1,30)
     if Cint == 1:
